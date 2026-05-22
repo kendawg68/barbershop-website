@@ -1,0 +1,178 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Vintage Barbershop</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- ===== Header / Navbar ===== -->
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#" class="logo" id="logo">Vintage Barbershop</a>
+
+        <nav class="nav" id="nav">
+          <a href="#features" class="nav-link">Services</a>
+
+          <a href="#cta" class="nav-link">Book</a>
+
+          <a href="#footer" class="nav-link">Contact</a>
+        </nav>
+
+        <!-- Mobile Menu Button (for later JS) -->
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      </div>
+
+      <!-- Mobile Menu Panel (for later JS) -->
+
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#features" class="mobile-link">Services</a>
+
+        <a href="#cta" class="mobile-link">Book</a>
+
+        <a href="#footer" class="mobile-link">Contact</a>
+      </div>
+    </header>
+
+    <!-- ===== Hero Section ===== -->
+
+    <section class="hero" id="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1 id="heroHeading">Classic Cuts. Clean Shaves. Vintage Style.</h1>
+
+          <p id="heroSubtext">
+            Experience the tradition of a true barbershop—precision fades,
+            straight-razor shaves, and a welcoming atmosphere.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#cta" class="btn btn-primary" id="bookBtn"
+              >Book an Appointment</a
+            >
+
+            <a href="#features" class="btn btn-secondary" id="servicesBtn"
+              >View Services</a
+            >
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <!-- Replace src with your provided hero image -->
+
+          <img
+            src="assets/images/hero.jpg"
+            alt="Barbershop hero"
+            class="hero-img"
+            id="heroImg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Features / Services Section ===== -->
+
+    <section class="features" id="features">
+      <div class="container">
+        <h2 class="section-title" id="featuresTitle">Services</h2>
+
+        <p class="section-subtitle" id="featuresSubtitle">
+          Quality grooming services designed for comfort, style, and confidence.
+        </p>
+
+        <div class="feature-grid" id="featureGrid">
+          <!-- Feature Card 1 -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Call To Action Section ===== -->
+
+    <section class="cta" id="cta">
+      <div class="container cta-inner">
+        <div class="cta-text">
+          <h2 id="ctaHeading">Ready for a fresh look?</h2>
+
+          <p id="ctaText">
+            Walk-ins welcome, appointments recommended. Book today and leave
+            looking sharp.
+          </p>
+        </div>
+
+        <div class="cta-actions">
+          <button class="btn btn-primary" id="ctaBtn">Book Now</button>
+
+          <button class="btn btn-secondary" id="callBtn">Call Us</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Footer Section ===== -->
+
+    <footer class="site-footer" id="footer">
+      <div class="container footer-inner">
+        <div class="footer-col">
+          <h3 class="footer-title">Vintage Barbershop</h3>
+
+          <p class="footer-text">Old-school service. Modern craftsmanship.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Hours</h4>
+
+          <ul class="footer-list" id="hoursList">
+            <li>Mon-Fri: 9am - 7pm</li>
+
+            <li>Sat: 10am - 5pm</li>
+
+            <li>Sun: Closed</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Contact</h4>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="footer-link" id="addressLink"
+                >123 Main St, Your City</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="footer-link" id="phoneLink">(555) 123-4567</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link" id="emailLink"
+                >hello@vintagebarbershop.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p class="copyright">
+          © <span id="year"></span> Vintage Barbershop. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- JS -->
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
+ 
