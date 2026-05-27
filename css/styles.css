@@ -476,6 +476,27 @@ body {
   font-size: 14px;
 }
 
+.feature-grid {
+  display: flex !important;
+  gap: 18px;
+  flex-wrap: nowrap;
+  padding: 20px 0;
+  will-change: transform;
+  transition: transform 0.09s cubic-bezier(0.25, 0.1, 0.25, 1);
+  transform: translateX(var(--translate-x, 0px));
+}
+
+.feature-card {
+  flex: 0 0 340px;
+  min-width: 340px;
+}
+
+@media (max-width: 900px) {
+  .feature-card {
+    flex: 0 0 290px;
+    min-width: 290px;
+  }
+}
 /* ---- Responsive ---- */
 
 @media (max-width: 900px) {
